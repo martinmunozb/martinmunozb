@@ -12,7 +12,7 @@
 <p align="center">
   <a href="https://automanize.com"><img src="https://img.shields.io/badge/Automanize-Explorar-242220?style=flat&amp;labelColor=E8DFD2&amp;color=242220" alt="Explorar Automanize" /></a>
   <a href="https://faaro.es"><img src="https://img.shields.io/badge/Faaro-Ver_demo-242220?style=flat&amp;labelColor=E8DFD2&amp;color=242220" alt="Ver la demo de Faaro" /></a>
-  <a href="https://linkedin.com/in/martinmunozb"><img src="https://img.shields.io/badge/LinkedIn-Conectar-242220?style=flat&amp;labelColor=E8DFD2&amp;color=242220" alt="Conectar en LinkedIn" /></a>
+  <a href="https://linkedin.com/in/martinmu/"><img src="https://img.shields.io/badge/LinkedIn-Conectar-242220?style=flat&amp;labelColor=E8DFD2&amp;color=242220" alt="Conectar en LinkedIn" /></a>
   <a href="mailto:martinmunozinfo@gmail.com"><img src="https://img.shields.io/badge/Email-Hablemos-242220?style=flat&amp;labelColor=E8DFD2&amp;color=242220" alt="Enviar un email a Martín" /></a>
 </p>
 
@@ -136,6 +136,6 @@ Además de los productos, estos repositorios muestran otras áreas de mi trabajo
 
 Si buscas desarrollar un producto, conectar tus herramientas o automatizar un proceso de negocio, podemos hablar.
 
-**[martinmunozinfo@gmail.com](mailto:martinmunozinfo@gmail.com)** &nbsp;·&nbsp; **[LinkedIn](https://linkedin.com/in/martinmunozb)** &nbsp;·&nbsp; **[Automanize](https://automanize.com)**
+**[martinmunozinfo@gmail.com](mailto:martinmunozinfo@gmail.com)** &nbsp;·&nbsp; **[LinkedIn](https://linkedin.com/in/martinmu/)** &nbsp;·&nbsp; **[Automanize](https://automanize.com)**
 
 <p align="center"><sub>Software que conecta ideas, personas y procesos.</sub></p>
