@@ -1,114 +1,141 @@
-<div align="center">
+<p align="center">
+  <img src="./assets/banner.png" width="100%" alt="Martín Muñoz — Software, IA y automatización. Fundador de Automanize." />
+</p>
 
-# Martín Muñoz Bastida
+<h1 align="center">Martín Muñoz Bastida</h1>
 
-**Fundador de [Automanize](https://automanize.com) · Automatización con IA para el sector inmobiliario**
+<p align="center">
+  <strong>Desarrollo de producto · Full stack · Inteligencia artificial</strong><br />
+  De un proceso manual a una herramienta que puedes usar cada día.
+</p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-martinmunozb-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/martinmunozb)
-[![Instagram](https://img.shields.io/badge/Instagram-@martinmunozb-E4405F?style=flat&logo=instagram&logoColor=white)](https://instagram.com/martinmunozb)
-[![YouTube](https://img.shields.io/badge/YouTube-Martín_Muñoz-FF0000?style=flat&logo=youtube&logoColor=white)](https://youtube.com/@martinmunoz)
-[![Web](https://img.shields.io/badge/Web-automanize.com-000000?style=flat&logo=vercel&logoColor=white)](https://automanize.com)
+<p align="center">
+  <a href="https://automanize.com"><img src="https://img.shields.io/badge/Automanize-Explorar-242220?style=flat&amp;labelColor=E8DFD2&amp;color=242220" alt="Explorar Automanize" /></a>
+  <a href="https://faaro.es"><img src="https://img.shields.io/badge/Faaro-Ver_demo-242220?style=flat&amp;labelColor=E8DFD2&amp;color=242220" alt="Ver la demo de Faaro" /></a>
+  <a href="https://linkedin.com/in/martinmunozb"><img src="https://img.shields.io/badge/LinkedIn-Conectar-242220?style=flat&amp;labelColor=E8DFD2&amp;color=242220" alt="Conectar en LinkedIn" /></a>
+  <a href="mailto:martinmunozinfo@gmail.com"><img src="https://img.shields.io/badge/Email-Hablemos-242220?style=flat&amp;labelColor=E8DFD2&amp;color=242220" alt="Enviar un email a Martín" /></a>
+</p>
 
-</div>
-
----
-
-## 👋 Sobre mí
-
-Soy Martín, tengo 19 años y soy fundador de **Automanize**, una agencia de automatización especializada en el sector inmobiliario en España.
-
-Construyo sistemas con IA que reemplazan procesos manuales: desde la captación de leads hasta la gestión completa de inquilinos, todo a través de WhatsApp y un panel de control propio.
-
-- 🏗️ Actualmente construyendo el producto core de Automanize
-- 🤖 Especializado en automatizaciones con **n8n**, **WhatsApp Business API** y **OpenAI**
-- 🏠 Clientes en el sector inmobiliario español
-- 📍 España
-
----
-
-## 🛠️ Stack técnico
-
-**Automatización & IA**
-
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
-![Make](https://img.shields.io/badge/Make-6D00CC?style=flat&logo=make&logoColor=white)
-![WhatsApp](https://img.shields.io/badge/WhatsApp_Business_API-25D366?style=flat&logo=whatsapp&logoColor=white)
-
-**Backend & Base de datos**
-
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
-
-**Frontend & Desktop**
-
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![Electron](https://img.shields.io/badge/Electron-47848F?style=flat&logo=electron&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
-
-**Infraestructura**
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Caddy](https://img.shields.io/badge/Caddy-00ADD8?style=flat&logo=caddy&logoColor=white)
+<p align="center">
+  <a href="#sobre-mí">Sobre mí</a> &nbsp;·&nbsp;
+  <a href="#productos">Productos</a> &nbsp;·&nbsp;
+  <a href="#tecnologías">Tecnologías</a> &nbsp;·&nbsp;
+  <a href="#código-público">Código público</a> &nbsp;·&nbsp;
+  <a href="#contacto">Contacto</a>
+</p>
 
 ---
 
-## 🚀 Qué construyo en Automanize
+## Sobre mí
 
-El producto principal de Automanize combina un **asistente IA por WhatsApp** con una **app de escritorio** para gestores inmobiliarios:
+Soy desarrollador de software y fundador de **[Automanize](https://automanize.com)**, donde construyo herramientas de gestión y automatización con IA para el sector inmobiliario en España.
 
-| Módulo | Descripción |
-|---|---|
-| 🤖 Asistente WhatsApp | Responde FAQs, envía info de pisos, filtra leads con IA |
-| 📅 Citas automáticas | Agenda visitas integrado con Calendly / Cal.com |
-| 💳 Gestión de pagos | Recordatorios automáticos, justificantes con análisis de imagen IA |
-| 🔧 Incidencias | Gestión multi-gestor con fotos almacenadas en Supabase Storage |
-| 📊 Informes | Reportes semanales automáticos para propietarios |
-| 📝 Contratos digitales | Firma y envío automatizado |
+Trabajo en el ciclo completo del producto: interfaz, backend, datos, integraciones y despliegue. Mi foco está en conectar todo eso para resolver tareas concretas: gestionar alquileres, coordinar un club deportivo, unificar el correo o preparar una oposición.
 
----
+Desarrollo para **web, escritorio y móvil**, y me interesan especialmente los productos con una interfaz sencilla sobre procesos de negocio complejos.
 
-## 📌 Proyectos destacados
+## Productos
 
-> La mayoría de mis proyectos son para clientes y están bajo NDA. A continuación algunos ejemplos representativos de lo que construyo:
+### 01 / Automanize · Nize
 
-### 🏠 Sistema de gestión inmobiliaria IA
-Stack completo para agencias: WhatsApp Bot + Panel desktop (Electron/React) + Supabase + n8n
-`n8n` `OpenAI` `Supabase` `React` `Electron` `WhatsApp API`
+**Gestión inmobiliaria y automatizaciones conectadas al trabajo diario.**
 
-### 🔔 Sistema de recordatorios y pagos automáticos
-Automatización de recordatorios de pago en 3 fases (anticipo, vencimiento, mora) con análisis de justificantes por IA
-`n8n` `Supabase` `OpenAI` `WhatsApp API`
+CRM para gestionar inmuebles, inquilinos, pagos, gastos e incidencias, con aplicaciones web y de escritorio, una app móvil y automatizaciones por WhatsApp. Integra documentos, calendarios y procesos asistidos por IA.
 
-### 🚒 App de oposiciones (en desarrollo)
-App estilo Duolingo para preparación de oposiciones a bombero — tests, rankings semanales y rachas
-`Flutter` `Firebase`
+`React` `Electron` `Expo / React Native` `Node.js` `Supabase` `OpenAI`
 
----
+[Explorar Automanize ↗](https://automanize.com)
 
-## 📊 Stats
+<details>
+<summary>Ver la evolución técnica</summary>
 
-<div align="center">
+Las primeras automatizaciones se construyeron con **n8n**. El sistema evolucionó hacia un backend propio con **Node.js y Express**, integrado con WhatsApp Business API, Google Drive, Google Calendar y Supabase.
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=martinmunozb&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e&icon_color=EA4B71)
+La web y el escritorio comparten código de interfaz. La app móvil utiliza Expo y React Native. El trabajo incluye permisos por organización, separación de datos con RLS y distribución de aplicaciones de escritorio.
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=martinmunozb&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=ffffff&text_color=8b949e)
+</details>
 
-</div>
+### 02 / Faaro
 
----
+**Software para gestionar clubes deportivos, dentro y fuera de la pista.**
 
-## 📬 Contacto
+Plataforma para coordinar equipos, jugadores, entrenamientos, partidos y cuotas. Incluye marcador en tiempo real, herramientas de análisis de vídeo y un editor de escritorio que procesa las exportaciones localmente con FFmpeg.
 
-¿Eres una agencia o promotora inmobiliaria que quiere automatizar su gestión? Hablemos.
+`Next.js` `NestJS` `Prisma` `PostgreSQL` `Socket.IO` `Electron` `Stripe`
 
-**→ [automanize.com](https://automanize.com)**  
-**→ martinmunozinfo@gmail.com**
+[Explorar Faaro y probar su demo interactiva ↗](https://faaro.es)
 
----
+### 03 / Difmeil
 
-<div align="center">
-<sub>Construyendo sistemas que trabajan mientras duermo 🤖</sub>
-</div>
+**Varias cuentas de Gmail, una sola bandeja.**
+
+Extensión de Chrome en desarrollo, con React, TypeScript y Manifest V3. La fase actual se centra en validar la conexión multicuenta; el diseño conecta la extensión directamente con Gmail API mediante OAuth.
+
+`TypeScript` `React` `WXT` `Gmail API` `OAuth 2.0`
+
+[Ver código y estado del proyecto ↗](https://github.com/martinmunozb/difmeil)
+
+<details>
+<summary>Explorar más proyectos: formación, gestión y herramientas de negocio</summary>
+
+| Proyecto | Qué estoy construyendo | Tecnologías |
+| :--- | :--- | :--- |
+| **OpoCompit** | App de estudio gamificada para oposiciones: tests, progreso, rachas y funciones sociales. En desarrollo; cliente actual en Expo, con Flutter como referencia de migración. | Expo, React Native, TypeScript, Firebase |
+| **AutonomoApp** | Herramienta de contabilidad y control fiscal por proyectos, con documentos y uso desde escritorio. | Next.js, TypeScript, Electron, Supabase |
+| **Centro de Pilates** | Gestión de sesiones, reservas, listas de espera y bonos. | React, Django REST Framework, PostgreSQL |
+| **Facturación de escritorio** | Gestión de clientes, productos y facturas; generación de PDF, exportaciones e importación OCR revisable. | Python, PySide6 / Qt, Supabase, Tesseract |
+| **Automatización de mensajería** | Motor de flujos para Instagram y WhatsApp, con separación por organización y respuestas predefinidas. | TypeScript, Node.js, PostgreSQL |
+
+También he desarrollado webs para negocios, integraciones de calendario, herramientas de seguimiento con Playwright y utilidades de gestión con Google Apps Script.
+
+Parte del código de producto está en repositorios privados. Los enlaces de este perfil llevan a webs públicas o a repositorios que se pueden consultar.
+
+</details>
+
+## Tecnologías
+
+Mi stack principal combina **TypeScript / JavaScript, React, Node.js y PostgreSQL**. Elijo las herramientas según el producto y la plataforma.
+
+| Área | Herramientas que utilizo |
+| :--- | :--- |
+| **Frontend** | React, Next.js, TypeScript, Tailwind CSS, Vite |
+| **Backend y datos** | Node.js, Express, NestJS, Prisma, PostgreSQL, Supabase |
+| **Escritorio y móvil** | Electron, Expo, React Native, Capacitor |
+| **IA e integraciones** | OpenAI, Anthropic, WhatsApp Business API, Google APIs, Stripe |
+| **Infraestructura** | Docker, Linux, Caddy, Cloudflare, Git / GitHub |
+
+<details>
+<summary>Ver otras tecnologías y experiencia por tipo de proyecto</summary>
+
+| Contexto | Tecnologías utilizadas |
+| :--- | :--- |
+| **Python y aplicaciones de gestión** | Django REST Framework, Flask, PySide6 / Qt, openpyxl, ReportLab, Tesseract |
+| **Java y formación en DAM** | Java, Spring Boot, Spring Security, JPA / Hibernate, Maven, MySQL |
+| **Desarrollo móvil previo** | Flutter, Dart, Firebase, Kotlin / Android |
+| **ERP y módulos de gestión** | Odoo, Python |
+| **Voz y tiempo real** | Twilio, OpenAI, WebSocket, Socket.IO |
+| **Automatización** | n8n en proyectos anteriores, Google Apps Script, Playwright |
+| **Pruebas y calidad** | Vitest, Jest, pytest, Playwright, comprobación de tipos |
+| **Web y extensiones** | HTML, CSS, JavaScript, WXT, Chrome Manifest V3, OAuth 2.0 |
+
+</details>
+
+## Código público
+
+Además de los productos, estos repositorios muestran otras áreas de mi trabajo:
+
+| Proyecto | Qué puedes explorar |
+| :--- | :--- |
+| **[Difmeil](https://github.com/martinmunozb/difmeil)** | Extensión de navegador con React y TypeScript, arquitectura y evolución del producto. |
+| **[Quiz Live](https://github.com/martinmunozb/Kahoot-Quiz-Practica)** | Quiz multijugador con Spring Boot: salas independientes, concurrencia y rankings. |
+| **[Llamadas con IA](https://github.com/martinmunozb/GestionDeLlamadasRestaurantes)** | Integración de Twilio y OpenAI para gestionar reservas por voz con Node.js. |
+
+[Explorar mis repositorios públicos ↗](https://github.com/martinmunozb?tab=repositories)
+
+## Contacto
+
+Si buscas desarrollar un producto, conectar tus herramientas o automatizar un proceso de negocio, podemos hablar.
+
+**[martinmunozinfo@gmail.com](mailto:martinmunozinfo@gmail.com)** &nbsp;·&nbsp; **[LinkedIn](https://linkedin.com/in/martinmunozb)** &nbsp;·&nbsp; **[Automanize](https://automanize.com)**
+
+<p align="center"><sub>Software que conecta ideas, personas y procesos.</sub></p>
