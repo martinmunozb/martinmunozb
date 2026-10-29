@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.png" width="100%" alt="Martín Muñoz — Software, IA y automatización. Fundador de Automanize." />
+  <img src="./assets/banner.png" width="100%" alt="Martín Muñoz — Cabecera minimalista en blanco, negro y gris." />
 </p>
 
 <h1 align="center">Martín Muñoz Bastida</h1>
@@ -10,10 +10,10 @@
 </p>
 
 <p align="center">
-  <a href="https://automanize.com"><img src="https://img.shields.io/badge/Automanize-Explorar-242220?style=flat&amp;labelColor=E8DFD2&amp;color=242220" alt="Explorar Automanize" /></a>
-  <a href="https://faaro.es"><img src="https://img.shields.io/badge/Faaro-Ver_demo-242220?style=flat&amp;labelColor=E8DFD2&amp;color=242220" alt="Ver la demo de Faaro" /></a>
-  <a href="https://linkedin.com/in/martinmu/"><img src="https://img.shields.io/badge/LinkedIn-Conectar-242220?style=flat&amp;labelColor=E8DFD2&amp;color=242220" alt="Conectar en LinkedIn" /></a>
-  <a href="mailto:martinmunozinfo@gmail.com"><img src="https://img.shields.io/badge/Email-Hablemos-242220?style=flat&amp;labelColor=E8DFD2&amp;color=242220" alt="Enviar un email a Martín" /></a>
+  <a href="https://automanize.com"><img src="https://img.shields.io/badge/Automanize-Explorar-181818?style=flat&amp;labelColor=E5E5E5&amp;color=181818" alt="Explorar Automanize" /></a>
+  <a href="https://faaro.es"><img src="https://img.shields.io/badge/Faaro-Ver_demo-181818?style=flat&amp;labelColor=E5E5E5&amp;color=181818" alt="Ver la demo de Faaro" /></a>
+  <a href="https://linkedin.com/in/martinmu/"><img src="https://img.shields.io/badge/LinkedIn-Conectar-181818?style=flat&amp;labelColor=E5E5E5&amp;color=181818" alt="Conectar en LinkedIn" /></a>
+  <a href="mailto:martinmunozinfo@gmail.com"><img src="https://img.shields.io/badge/Email-Hablemos-181818?style=flat&amp;labelColor=E5E5E5&amp;color=181818" alt="Enviar un email a Martín" /></a>
 </p>
 
 <p align="center">
