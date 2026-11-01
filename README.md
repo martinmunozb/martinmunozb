@@ -132,6 +132,10 @@ Además de los productos, estos repositorios muestran otras áreas de mi trabajo
 
 [Explorar mis repositorios públicos ↗](https://github.com/martinmunozb?tab=repositories)
 
+## Artículos técnicos
+
+- **[Cómo resolví el error #3441034 de WhatsApp Business al activar la coexistencia](articles/whatsapp-business-coexistence-error-3441034.md)** — Depuración de Embedded Signup y una conexión previa a Meta Business Suite Inbox.
+
 ## Contacto
 
 Si buscas desarrollar un producto, conectar tus herramientas o automatizar un proceso de negocio, podemos hablar.
