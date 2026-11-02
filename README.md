@@ -134,7 +134,8 @@ Además de los productos, estos repositorios muestran otras áreas de mi trabajo
 
 ## Artículos técnicos
 
-- **[Cómo resolví el error #3441034 de WhatsApp Business al activar la coexistencia](articles/whatsapp-business-coexistence-error-3441034.md)** — Depuración de Embedded Signup y una conexión previa a Meta Business Suite Inbox.
+- **[WhatsApp Business Coexistence: errores #3441034, #1690130 y 131000/10](articles/whatsapp-business-coexistence-error-3441034.md)** — Caso real, diagnóstico con Graph API y recuperación de mensajes entrantes.
+- **[English: WhatsApp Business Coexistence troubleshooting](articles/whatsapp-business-coexistence-debugging-3441034-1690130.en.md)** — Technical incident report for international developers.
 
 ## Contacto
 
