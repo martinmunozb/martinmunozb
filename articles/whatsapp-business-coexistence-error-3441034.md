@@ -129,7 +129,37 @@ La coexistencia puede ofrecer sincronización de contactos e historial con event
 
 Por eso, antes de ejecutar una sincronización potencialmente irreversible, conviene verificar que **un mensaje entrante nuevo produce un webhook** y que el worker realmente guarda esos eventos.
 
-## 7. Checklist práctico para investigar tu caso
+## 7. Actualización del 2 de noviembre: sincronización rechazada con 131000 / subcódigo 10
+
+Después de comprobar que un **mensaje entrante nuevo llegaba tanto a WhatsApp Business como a mi aplicación**, intenté solicitar la sincronización de contactos y después la de historial. **Las dos peticiones fueron rechazadas** con el mismo error:
+
+```text
+code: 131000
+error_subcode: 10
+This API is only available to WhatsApp Business App phone numbers
+onboarded on to WhatsApp Business Platform
+```
+
+Esto es especialmente interesante porque **la consulta de Graph seguía devolviendo** `CONNECTED`, `CLOUD_API` e `is_on_biz_app: true`; además, los webhooks de mensajes entrantes funcionaban. La API `smb_app_data`, sin embargo, **no aceptaba el número como elegible para esas sincronizaciones**.
+
+**Interpretación prudente:** tener recepción Cloud API y `is_on_biz_app: true` no garantiza que la sincronización histórica esté habilitada o que el alta de coexistencia haya quedado totalmente terminada. **Meta no ha confirmado la causa interna exacta**: podría ser coherente con el alta interrumpida, pero el texto del error no demuestra por sí solo esa hipótesis.
+
+En particular, el error no decía que hubiese expirado la ventana de 24 horas ni que yo hubiera rechazado compartir el historial. **No repetí las solicitudes**, para evitar manipular un proceso potencialmente de un solo uso.
+
+**Estado verificado en ese momento:**
+
+- Los mensajes entrantes nuevos llegaban a WhatsApp Business y a mi bandeja mediante webhook.
+- La aplicación estaba suscrita al WABA y el canal existía en mi base de datos.
+- La importación de **contactos e historial antiguo no se había realizado**.
+- La prueba de eco desde la aplicación WhatsApp Business (`smb_message_echoes`) y la prueba de respuesta saliente seguían pendientes de confirmación; no deben presentarse como exitosas.
+
+Para soporte de Meta, guardé **por privado** las fechas, los códigos de error, los `fbtrace_id` de cada petición y el identificador de sesión de Embedded Signup. No recomiendo publicar esos IDs de negocio o de sesión en una guía reutilizable.
+
+**Qué solicitar a Meta:** confirmar el estado real del onboarding y por qué `smb_app_data` rechaza las sincronizaciones aunque Graph informe coexistencia; reparar o completar la vinculación pendiente **sin borrar ni migrar el número**; y aclarar si puede habilitarse la sincronización posteriormente.
+
+---
+
+## 8. Checklist práctico para investigar tu caso
 
 1. **Identifica el error exacto** y en qué paso aparece: número, negocio, autorización, confirmación o envío.
 2. **Si es #3441034**, mira primero WhatsApp Business → Ajustes → Cuenta → Plataforma para empresas. ¿Está conectada Meta Business Suite Inbox? Desvincula solo esa plataforma **si vas a sustituirla**.
@@ -137,8 +167,9 @@ Por eso, antes de ejecutar una sincronización potencialmente irreversible, conv
 4. **Si es #1690130 tras un alta incompleta**, no des por hecho que el porfolio realmente es inválido. Inspecciona WABA, número y suscripción de la app mediante lecturas de Graph.
 5. **Si Graph confirma coexistencia pero no hay webhooks**, comprueba `subscribed_apps`, callback y la persistencia local. No vuelvas a llamar a `/register` sin justificarlo.
 6. **Haz una prueba real de mensaje entrante y saliente**, no te bases solo en `CONNECTED`.
-7. **Si aparece 141006**, trata la facturación/envíos como otro incidente.
-8. **Si no tienes acceso técnico suficiente**, abre un caso con Meta aportando código, fecha, identificador de sesión (por canal privado) y estados observados, sin publicar tokens ni números.
+7. **Si `smb_app_data` devuelve 131000 / 10**, conserva el trace para soporte; no confundas recepción de webhooks con historial elegible.
+8. **Si aparece 141006**, trata la facturación/envíos como otro incidente.
+9. **Si no tienes acceso técnico suficiente**, abre un caso con Meta aportando código, fecha, identificador de sesión (por canal privado) y estados observados, sin publicar tokens ni números.
 
 ## Lo que **NO** afirmo
 
@@ -146,7 +177,7 @@ Por eso, antes de ejecutar una sincronización potencialmente irreversible, conv
 - No afirmo que cambiar la zona horaria causase el fallo.
 - No afirmo que mover la app a otro porfolio sea la solución.
 - No afirmo que cualquier `#3441034` se arregle desconectando Business Suite.
-- No afirmo haber restaurado todos los chats antiguos o desbloqueado los mensajes iniciados por la empresa.
+- No afirmo haber restaurado todos los chats antiguos o desbloqueado los mensajes iniciados por la empresa. De hecho, las solicitudes de sincronización fallaron con **131000 / 10**.
 
 ## Referencias
 
