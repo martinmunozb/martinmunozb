@@ -134,8 +134,12 @@ Además de los productos, estos repositorios muestran otras áreas de mi trabajo
 
 ## Artículos técnicos
 
-- **[WhatsApp Business Coexistence: errores #3441034, #1690130 y 131000/10](articles/whatsapp-business-coexistence-error-3441034.md)** — Caso real, diagnóstico con Graph API y recuperación de mensajes entrantes.
-- **[English: WhatsApp Business Coexistence troubleshooting](articles/whatsapp-business-coexistence-debugging-3441034-1690130.en.md)** — Technical incident report for international developers.
+### WhatsApp Business Coexistence — errores reales
+
+1. **[Solución del error #3441034: conflicto con Meta Business Suite Inbox](articles/whatsapp-business-error-3441034-solucion-meta-business-suite.md)** — Lo que me funcionó paso a paso, y qué no debes desconectar o borrar.
+2. **[Diagnóstico del error #1690130 tras Embedded Signup interrumpido](articles/whatsapp-business-error-1690130-embedded-signup-recuperacion-parcial.md)** — Recuperación de entrantes y ecos con Graph API; sincronización histórica aún rechazada con 131000/10.
+
+**Autor: Martín Muñoz.** También disponible: [registro técnico completo en español](articles/whatsapp-business-coexistence-error-3441034.md) y [technical incident report in English](articles/whatsapp-business-coexistence-debugging-3441034-1690130.en.md).
 
 ## Contacto
 
